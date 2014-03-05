@@ -1,0 +1,11 @@
+The following commands do additional steps to convert the files to
+and from XML files.
+
+python script/getTextFromXmlTrain.py   will get the text from the XML files located in dataTrain
+                                       and save it in textTrain. It will also get the scores and
+                                       save them in the respective folder.
+
+python script/getTextFromXmlTest.py    will get the text from the XML files located in dataTest
+                                       and save it in textTest. 
+
+python script/predictionsToXml.py      will save the scores predicted and save them in XML files.
